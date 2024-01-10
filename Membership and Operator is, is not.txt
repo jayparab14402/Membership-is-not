@@ -1,0 +1,13 @@
+print ("Jay Parab")
+print("Use of 'is' identity operator")
+x = 5
+if(type(x) is int):
+ print("TRUE")
+else:
+ print("FALSE")
+print("\nUse of 'is not ' identity operator")
+x = 5.33
+if(type(x)is not int):
+ print("TRUE")
+else:
+ print("FALSE")
